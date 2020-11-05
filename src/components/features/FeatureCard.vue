@@ -10,15 +10,13 @@
                 <div class="project-right">
                     <div class="project-content">
                         <h2>{{cardSet.header}}</h2>
-                        <p>{{cardSet.paragraph}}</p>
-                        <div class="project-persent">
-                            <div class="pro-persent" v-for="(growth, index) in cardSet.bottomCard" :key="index">
-                                <h1><i class="fa fa-arrow-up"></i>{{growth.head}}</h1>
-                                <p>{{growth.text}}</p>
-                            </div>
-                        </div>
-                        <div >
-                           <div ><a :href="cardSet.link" class="btn btn-talk">Live Demo</a></div>
+                        <div class="feature-list" >
+                            <ul >
+                                <li v-for="(list, index) in cardSet.ListText1" :key="index">{{list.text}}</li>
+                            </ul>
+                            <ul>
+                                <li v-for="(list, index) in cardSet.ListText2" :key="index">{{list.text}}</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -39,6 +37,24 @@
 
 <style scoped>
 /* Live Project setion start */
+.feature-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.feature-list ul{
+    margin: 0px;
+    padding: 15px;
+    width: 40%;
+}
+.feature-list ul li{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    letter-spacing: .05em;
+    color: #1a202c;
+    line-height: 1.5;
+    font-size: 18px;
+}
 .live-project-container .main-container {
     width: 1266px;
     margin: 0 auto;
