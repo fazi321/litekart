@@ -13,7 +13,8 @@
                         <p>{{cardSet.paragraph}}</p>
                         <div class="project-persent">
                             <div class="pro-persent" v-for="(growth, index) in cardSet.bottomCard" :key="index">
-                                <h1><i class="fa fa-arrow-up"></i>{{growth.head}}</h1>
+                                <h1><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" label="growth" scale="2" class="mr-2 text-green-500 feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                                {{growth.head}}</h1>
                                 <p>{{growth.text}}</p>
                             </div>
                         </div>
@@ -129,10 +130,9 @@
     align-items: center;
 }
 
-.live-project-container .main-container .project-section .project-right .project-persent .pro-persent h1 .fa {
-    font-size: 20px;
+.live-project-container .main-container .project-section .project-right .project-persent .pro-persent h1 svg {
     color: #48bb78;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .live-project-container .main-container .project-section .project-right .project-persent .pro-persent p {

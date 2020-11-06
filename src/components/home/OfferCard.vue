@@ -4,10 +4,20 @@
             <div class="gen-img">
                 <div class="mid-content">
                     <span class="arrow-circle">
-                        <i class="fa fa-long-arrow-left"></i>
+                        <div class="svg-arrow">
+                            <svg fill="currentColor" viewBox="0 0 24 24" class="w-full h-full text-indigo-900"><path d="M5.41 11H21a1 1 0 0 1 0 2H5.41l5.3 5.3a1 1 0 0 1-1.42
+                           1.4l-7-7a1 1 0 0 1 0-1.4l7-7a1 1 0 0 1 1.42 1.4L5.4 11z"></path></svg>
+                        </div>
                         <span class="mid-icons">
-                            <i class="fa fa-chevron-right"></i>
-                            <i class="fa fa-minus"></i>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" width="200" height="120" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="relative text-white fill-current fa-w-16"><path fill="currentColor" d="M257.981 272.971L63.638 467.314c-9.373 9.373-24.569
+                                9.373-33.941 0L7.029
+                                444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99
+                                101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373
+                                24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0
+                                33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24
+                                10.745-24 24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745
+                                24-24z"></path></svg>
+                            
                         </span>
                     </span>
 
@@ -17,7 +27,7 @@
                 <div>
                     <p><span>The Next Generation of Commerce</span> - Get started selling within minutes. Featuring a complete e-commerce store designed for products and services with tons of free and exciting features.
                     </p>
-                    <a href="#">Learn more about our offerings <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="#">Learn more about our offerings →</a>
                 </div>
             </div>
         </div>
@@ -61,8 +71,10 @@
     align-items: center;
     margin-left: -30px;
 }
-
-.generation-container .generation-div .gen-img .mid-content span.arrow-circle>i {
+.generation-container .generation-div .gen-img .mid-content .mid-icons svg{
+    color: #fff;
+}
+.generation-container .generation-div .gen-img .mid-content span.arrow-circle .svg-arrow {
     width: 65px;
     height: 60px;
     background-color: #fff;
@@ -74,21 +86,15 @@
     font-size: 24px;
     cursor: pointer;
 }
-
+.svg-arrow svg{
+    width: 24px;
+    color: #3c366b;
+}
 .generation-container .generation-div .gen-img .mid-content .mid-icons {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 36px;
-}
-
-.generation-container .generation-div .gen-img .mid-content .mid-icons .fa-minus {
-    margin-top: 36px;
-}
-
-.generation-container .generation-div .gen-img .mid-content .mid-icons i {
-    color: #fff;
-    font-size: 100px;
 }
 
 .generation-container .generation-div .gen-text {

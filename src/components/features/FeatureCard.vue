@@ -83,6 +83,8 @@
     width: 350px;
     /* height: 860px; */
     object-fit: cover;
+    filter: drop-shadow(0 17px 11px gray);
+    z-index: 0;
 }
 
 .live-project-container .main-container .project-section .project-right {

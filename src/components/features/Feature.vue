@@ -164,7 +164,7 @@
                     },
                      //    card start
                    {
-                       image: 'seo.svg', 
+                       image: 'seo (1).svg', 
                        header: 'Performance and Analytics Tools', 
                 
                        link: '#',

@@ -83,10 +83,12 @@
 .btn-blue {
     background-color: #4299e1;
     color: #fff;
-    font-size: 16px!important;
+    font-size: 14px!important;
+    font-weight: 500!important;
+    padding: 15px 50px!important;
 }
 .demo-btn{
-    width: 350px;
+    width: 300px;
 }
 
 .hero-container .hero .hero-left .hero-text {
@@ -96,12 +98,6 @@
     margin-top: 50px;
 }
 
-.hero-container .hero .hero-left .hero-text .fa {
-    border-top-right-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-    font-size: 36px;
-    color: #3182ce;
-}
 
 .hero-container .hero .hero-left .hero-text p {
     color: #4a5568;

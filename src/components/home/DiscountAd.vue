@@ -34,5 +34,7 @@
 }
 .btn-yellow {
     background-color: #fdc700;
+    color: #000!important;
+    font-weight: 500!important;
 }
 </style>
